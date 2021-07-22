@@ -7,13 +7,14 @@
 h1 {
     color: #426696;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 2rem;
     opacity: 0.8;
 }
 
 h2, p {
     color: #658ec6;
     font-weight: 500;
+    font-size: 1rem;
     opacity: 0.8;
 }
 
@@ -87,8 +88,8 @@ main {
 
 .link {
     display: flex;
-    margin: 1rem 0rem;
-    padding: 1rem 5rem;
+    margin: 0.5rem 0rem;
+    padding: 0.5rem 5rem;
     align-items: center;
 }
 
@@ -109,8 +110,10 @@ main {
 }
 
 .pro img {
+    width: 80px;
+    height: 80px;
     position: absolute;
-    top: -10%;
+    top: 10%;
     right: 10%;
 }
 
@@ -120,7 +123,7 @@ main {
     font-weight: 600;
 }
 
-/* GAMES */
+/* ---------- GAMES ---------- */
 
 .status {
     margin-bottom: 3rem;
@@ -134,12 +137,13 @@ main {
     );
     border: none;
     width: 50%;
+    height: 30%;
     padding: 0.5rem;
     border-radius: 2rem;
 }
 
 .games {
-    margin: 5rem;
+    margin: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -153,8 +157,8 @@ main {
         rgba(255, 255, 255, 0.5)
     );
     border-radius: 1rem;
-    margin: 2rem, 0rem;
-    padding: 2rem;
+    margin: 1rem 0rem;
+    padding: 1rem;
     box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
     justify-content: space-between;
 }
@@ -162,7 +166,7 @@ main {
 .progress {
     background: linear-gradient(to right top, #65dfc9, #6cdbeb);
     width: 100%;
-    height: 25%;
+    height: 15%;
     border-radius: 1rem;
     position: relative;
     overflow: hidden;
