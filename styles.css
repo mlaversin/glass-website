@@ -99,6 +99,7 @@ main {
 
 .games {
     flex: 2;
+    padding: 0rem 1rem;
 }
 
 .pro {
@@ -126,7 +127,7 @@ main {
 /* ---------- GAMES ---------- */
 
 .status {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .status input {
@@ -143,7 +144,7 @@ main {
 }
 
 .games {
-    margin: 1rem;
+    margin: 1rem 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -161,6 +162,11 @@ main {
     padding: 1rem;
     box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
     justify-content: space-between;
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
 }
 
 .progress {
